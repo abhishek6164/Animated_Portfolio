@@ -2,7 +2,7 @@ import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 
-import useAlert from "../hooks/useAlert.js";
+import useAlert from "../Hooks/useAlert.js";
 import Alert from "../components/Alert.jsx";
 
 const Contact = () => {
@@ -93,7 +93,7 @@ const Contact = () => {
         transition={{ duration: 0.8 }}
         className="w-full max-w-2xl z-10 bg-s1/80 backdrop-blur-md p-6 sm:p-10 rounded-xl shadow-xl"
       >
-        <motion.h3 
+        <motion.h3
           initial={{ x: -50, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.5 }}
@@ -101,7 +101,7 @@ const Contact = () => {
         >
           Let's talk
         </motion.h3>
-        <motion.p 
+        <motion.p
           initial={{ x: -50, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.1 }}
@@ -120,7 +120,7 @@ const Contact = () => {
           className="flex flex-col gap-6"
         >
           {/* Name */}
-          <motion.label 
+          <motion.label
             whileHover={{ scale: 1.02 }}
             className="flex flex-col gap-2"
           >
@@ -137,7 +137,7 @@ const Contact = () => {
           </motion.label>
 
           {/* Email */}
-          <motion.label 
+          <motion.label
             whileHover={{ scale: 1.02 }}
             className="flex flex-col gap-2"
           >
@@ -154,7 +154,7 @@ const Contact = () => {
           </motion.label>
 
           {/* Message */}
-          <motion.label 
+          <motion.label
             whileHover={{ scale: 1.02 }}
             className="flex flex-col gap-2"
           >
