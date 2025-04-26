@@ -40,7 +40,82 @@ export const myProjects = [
         path: 'assets/tailwindcss.png',
       },
     ],
-  },
+  }, {
+    title: 'Crypto Pulse',
+    desc: 'A real-time cryptocurrency price tracker displaying live market updates, price trends, and 7-day graphs of major assets.',
+    subdesc:
+      'Built using React, Redux Toolkit, TailwindCSS, and Binance WebSocket. Features real-time price updates, percent change, market cap, volume, and dynamic UI inspired by CoinMarketCap.',
+    href: 'https://crypto-ad5r.onrender.com',
+    texture: '/textures/project/project2.mp4',
+    logo: '/assets/btc.webp',
+    logoStyle: {
+      backgroundColor: '#112233',
+      border: '0.2px solid #334455',
+      boxShadow: '0px 0px 60px 0px #2233444D',
+    },
+    spotlight: '/assets/spotlight4.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'Redux Toolkit',
+        path: '/assets/redux.webp',
+      },
+      {
+        id: 3,
+        name: 'Tailwind CSS',
+        path: '/assets/tailwind.png',
+      },
+      {
+        id: 4,
+        name: 'WebSocket',
+        path: '/assets/websocket.webp',
+      },
+    ],
+  }
+  ,
+  {
+    title: 'Coupon Crafter',
+    desc: 'A full-stack platform for distributing and managing discount coupons with usage tracking and expiry controls.',
+    subdesc:
+      'Developed using MERN stack with secure JWT auth, role-based access, and elegant UI using TailwindCSS. Vendors can add/edit coupons, users can claim and redeem them in real-time.',
+    href: 'https://coupon-distributor-1-l1on.onrender.com/',
+    texture: '/textures/project/project3.mp4',
+    logo: '/assets/coupon.webp',
+    logoStyle: {
+      backgroundColor: '#442244',
+      border: '0.2px solid #663377',
+      boxShadow: '0px 0px 60px 0px #5522774D',
+    },
+    spotlight: '/assets/spotlight3.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'Node.js',
+        path: '/assets/node.png',
+      },
+      {
+        id: 3,
+        name: 'MongoDB',
+        path: '/assets/mongodb.png',
+      },
+      {
+        id: 4,
+        name: 'Tailwind CSS',
+        path: '/assets/tailwind.png',
+      },
+    ],
+  }
+  ,
   {
     title: 'Employee Management System',
     desc: 'A full-stack app for managing employees, departments, and roles within an organization. Admins can add, edit, and view employee data securely.',
